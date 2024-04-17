@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carlos Espinoza" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src=""></script>
+    <link rel="stylesheet" href="" />
+    <title>Viajes Chile</title>
+  </head>
+
+  <body class="bg-dark">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-dark"
+        style="background-color: transparent"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand fw-bold"
+            href="./index.html"
+            title="Logo Viajes Chile"
+            ><img
+              src="./assets/img/viajes.svg"
+              alt="Logo Viajes Chile"
+              style="width: 70px"
+            />
+            Viajes Chile</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">a</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">a</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">a</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-section">
+        <div
+          id="carouselHeroSection"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators container-fuid">
+            <div
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Ir a slider 1 "
+              data-bs-target="#carouselHeroSection"
+              data-bs-slide-to="0"
+              class="active bullet1 bullet"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></div>
+            <div
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Ir a slider 2"
+              data-bs-target="#carouselHeroSection"
+              data-bs-slide-to="1"
+              class="bullet2 bullet"
+              aria-label="Slide 2"
+            ></div>
+            <div
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Ir a slider 3"
+              data-bs-target="#carouselHeroSection"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              class="bullet3 bullet"
+            ></div>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-item1 active">
+              <div class="background_slider background_slider1"></div>
+              <div class="carousel-item_contenedor carousel-item_contenedor1">
+                <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title=""
+                >
+                  <img
+                    src="./assets/img/carousel1.jpg"
+                    style="width: 2000px; height: 750px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item2">
+              <div class="background_slider background_slider2"></div>
+              <div class="carousel-item_contenedor carousel-item_contenedor2">
+                <div data-bs-toggle="tooltip" data-bs-placement="bottom">
+                  <img
+                    src="./assets/img/carousel2.jpg"
+                    style="width: 2000px; height: 750px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item3">
+              <div class="background_slider background_slider3"></div>
+              <div class="carousel-item_contenedor carousel-item_contenedor3">
+                <div data-bs-toggle="tooltip" data-bs-placement="bottom">
+                  <img
+                    src="./assets/img/carousel3.jpg"
+                    style="width: 2000px; height: 750px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              title="Ir atrás"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+              data-bs-toggle="tooltip"
+              data-bs-placement="left"
+              title="Ir adelante"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="text-center text-light">¿Quienes Somos?</h1>
+      <div class="row mt-5 text-light">
+        <div class="col-12 col-md-4">
+          <p id="cabin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            laudantium aut in nihil ipsam tempora, eum facilis, veritatis, dolor
+            dolorem accusamus perspiciatis numquam praesentium vero nesciunt
+            quaerat architecto. Itaque, quibusdam? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Minima nesciunt totam saepe autem,
+            iure provident molestias cupiditate enim dignissimos eius temporibus
+            maxime velit est nostrum voluptates cumque ratione, inventore
+            laudantium?
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p id="cabin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            quasi obcaecati voluptatibus illo? Architecto fuga beatae voluptates
+            nostrum repellat, similique laboriosam odio, eaque quae, accusantium
+            sapiente ipsam commodi ipsum. Necessitatibus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Minima nesciunt totam saepe
+            autem, iure provident molestias cupiditate enim dignissimos eius
+            temporibus maxime velit est nostrum voluptates cumque ratione,
+            inventore laudantium?
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <i class="fa-solid fa-globe my-3"></i>
+
+          <p id="cabin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            nesciunt totam saepe autem, iure provident molestias cupiditate enim
+            dignissimos eius temporibus maxime velit est nostrum voluptates
+            cumque ratione, inventore laudantium? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Minima nesciunt totam saepe autem,
+            iure provident molestias cupiditate enim dignissimos eius temporibus
+            maxime velit est nostrum voluptates cumque ratione, inventore
+            laudantium?
+          </p>
+        </div>
+      </div>
+
+      <section class=" py-3 px-3 px-md-5">
+        <h2 class="text-light text-center">Destacados</h2>
+        <div class="row gy-3">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/card1.jpg"
+                class="card-img-top"
+                alt="Imagen 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold"></h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/card2.jpg"
+                class="card-img-top"
+                alt="Imagen 2"
+              />
+              <div class="card-body">
+                
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/card3.jpg"
+                class="card-img-top"
+                alt="Imagen 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold"></h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/card4.jpg"
+                class="card-img-top"
+                alt="Imagen 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold"></h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, blanditiis! Libero voluptate at eligendi
+                  reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <section  >
+      <h2 class="contacto_titulo fw-bold mb-3 text-light text-center">Contacto</h2>
+      <form class="p-3 mx-auto text-light">
+        <div class="mb-3">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            aria-describedby="nameHelp"
+            placeholder="Escribe aquí tu nombre"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="inputAsunto" class="form-label">Asunto</label>
+          <input
+            type="text"
+            class="form-control"
+            
+            aria-describedby="asuntoHelp"
+            placeholder="Escribe aquí el asunto del mensaje"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="mensajeArea" class="form-label">Mensaje</label>
+          <textarea
+            class="form-control"
+            rows="5"
+            placeholder="Escribe aquí el mensaje"
+            required
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="btn boton_submit_formulario fw-bold"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          title="Haz click aqui para enviar la data"
+        >
+          Enviar Mensaje
+        </button>
+      </form>
+    </section>
+    </main>
+
+    <main></main>
+  </body>
+</html>
