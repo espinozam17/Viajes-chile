@@ -10,8 +10,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <script
       defer
@@ -26,8 +27,9 @@
       crossorigin="anonymous"
     ></script>
     <script defer src=""></script>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
     <title>Viajes Chile</title>
+    <link rel="icon" href="./assets/img/viajes.svg" />
   </head>
 
   <body class="bg-dark">
@@ -65,13 +67,13 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">a</a>
+                <a class="nav-link active" aria-current="page" href="#quienes">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">a</a>
+                <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">a</a>
+                <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -188,7 +190,7 @@
     </header>
 
     <main class="container">
-      <h1 class="text-center text-light">¿Quienes Somos?</h1>
+      <h1 class="text-center text-light mt-5" id="quienes">¿Quienes Somos?</h1>
       <div class="row mt-5 text-light">
         <div class="col-12 col-md-4">
           <p id="cabin">
@@ -215,7 +217,7 @@
           </p>
         </div>
         <div class="col-12 col-md-4">
-          <i class="fa-solid fa-globe my-3"></i>
+          <i class="fab fa-cc-visa fa-6x" id="color"></i>
 
           <p id="cabin">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -230,19 +232,19 @@
         </div>
       </div>
 
-      <section class=" py-3 px-3 px-md-5">
-        <h2 class="text-light text-center">Destacados</h2>
+      <section >
+        <h2 class="text-light text-center mb-5" id="destacados">Destacados</h2>
         <div class="row gy-3">
           <div class="col-12 col-sm-6 col-md-3">
-            <div class="card">
+            <div class="card"     >
               <img
                 src="./assets/img/card1.jpg"
                 class="card-img-top"
                 alt="Imagen 1"
               />
-              <div class="card-body">
-                <h5 class="card-title fw-bold"></h5>
-                <p class="card-text">
+              <div class="card-body"  id="color"  >
+               
+                <p class="card-text text-white"    >
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
                   reiciendis.
@@ -253,13 +255,14 @@
           <div class="col-12 col-sm-6 col-md-3">
             <div class="card">
               <img
-                src="./assets/img/card2.jpg"
+                src="./assets/img/card1.jpg"
                 class="card-img-top"
                 alt="Imagen 2"
               />
-              <div class="card-body">
+              <div class="card-body" id="color"  >
                 
-                <p class="card-text">
+                
+                <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
                   reiciendis.
@@ -275,9 +278,9 @@
                 class="card-img-top"
                 alt="Imagen 3"
               />
-              <div class="card-body">
-                <h5 class="card-title fw-bold"></h5>
-                <p class="card-text">
+              <div class="card-body"  id="color"   >
+                
+                <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
                   reiciendis.
@@ -292,9 +295,9 @@
                 class="card-img-top"
                 alt="Imagen 4"
               />
-              <div class="card-body">
-                <h5 class="card-title fw-bold"></h5>
-                <p class="card-text">
+              <div class="card-body" id="color" >
+               
+                <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
                   reiciendis.
@@ -307,7 +310,7 @@
 
     </section>
     <section  >
-      <h2 class="contacto_titulo fw-bold mb-3 text-light text-center">Contacto</h2>
+      <h2 class="mt-5 mb-3 text-light text-center"id="contacto">Contacto</h2>
       <form class="p-3 mx-auto text-light">
         <div class="mb-3">
           <label for="inputName" class="form-label">Nombre</label>
@@ -341,18 +344,24 @@
         </div>
 
         <button
+          id="color"
           type="submit"
-          class="btn boton_submit_formulario fw-bold"
+          class="btn boton_submit_formulario text-white"
           data-bs-toggle="tooltip"
           data-bs-placement="bottom"
-          title="Haz click aqui para enviar la data"
+         
         >
           Enviar Mensaje
         </button>
       </form>
     </section>
-    </main>
 
-    <main></main>
+
+  
+    </main>
+    <footer class=" pt-3 pb-5" id="color" >
+      <span>Viajes chike</span>
+    </footer>
+  
   </body>
 </html>

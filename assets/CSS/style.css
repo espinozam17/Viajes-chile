@@ -1,4 +1,10 @@
-.contacto{
+#color{
     background-color: aqua;
-}
+};
 
+p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  };
