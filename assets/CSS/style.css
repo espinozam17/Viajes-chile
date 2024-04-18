@@ -1,10 +1,21 @@
-#color{
-    background-color: aqua;
-};
+html {
+    scroll-behavior: smooth;
+}
 
-p {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  };
+body {
+    font-family: "Raleway";
+}
+
+
+#favicon {
+    width: 35px;
+}
+p,
+h2,
+h5 {
+    color: white;
+}
+
+#negro{
+    background-color: black;
+}

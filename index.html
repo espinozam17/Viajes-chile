@@ -10,9 +10,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/944b203749.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script
       defer
@@ -26,13 +35,13 @@
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
-    <script defer src=""></script>
+    <script defer src="./assets/JS/index.js"></script>
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <title>Viajes Chile</title>
     <link rel="icon" href="./assets/img/viajes.svg" />
   </head>
 
-  <body class="bg-dark">
+  <body id="negro">
     <header>
       <nav
         class="navbar navbar-expand-lg fixed-top navbar-dark"
@@ -67,13 +76,22 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#quienes">Quienes Somos</a>
+                <a class="nav-link active" aria-current="page" href="#quienes"
+                  >Quienes Somos</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#destacados"
+                  >Destacados</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="#contacto"
+                  >Contacto</a
+                >
               </li>
             </ul>
           </div>
@@ -189,11 +207,17 @@
       </div>
     </header>
 
+
+
+    
     <main class="container">
       <h1 class="text-center text-light mt-5" id="quienes">¿Quienes Somos?</h1>
       <div class="row mt-5 text-light">
-        <div class="col-12 col-md-4">
-          <p id="cabin">
+        <div class="col-12 col-md-4 mb-3">
+          <div class="bg-info text-center text-light">
+            <i class="fa-solid fa-plane text center"></i>
+          </div>
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
             laudantium aut in nihil ipsam tempora, eum facilis, veritatis, dolor
             dolorem accusamus perspiciatis numquam praesentium vero nesciunt
@@ -205,7 +229,7 @@
           </p>
         </div>
         <div class="col-12 col-md-4">
-          <p id="cabin">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             quasi obcaecati voluptatibus illo? Architecto fuga beatae voluptates
             nostrum repellat, similique laboriosam odio, eaque quae, accusantium
@@ -215,11 +239,17 @@
             temporibus maxime velit est nostrum voluptates cumque ratione,
             inventore laudantium?
           </p>
+          <div class="bg-info text-center">
+            <i class="fa-solid fa-mountain"></i>
+          </div>
         </div>
-        <div class="col-12 col-md-4">
-          <i class="fab fa-cc-visa fa-6x" id="color"></i>
 
-          <p id="cabin">
+        <div class="col-12 col-md-4">
+          <div class="bg-info text-center">
+            <i class="fa-solid fa-route"></i>
+          </div>
+
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
             nesciunt totam saepe autem, iure provident molestias cupiditate enim
             dignissimos eius temporibus maxime velit est nostrum voluptates
@@ -232,19 +262,18 @@
         </div>
       </div>
 
-      <section >
-        <h2 class="text-light text-center mb-5" id="destacados">Destacados</h2>
-        <div class="row gy-3">
+      <section>
+        <h2 class="text-light text-center mt-5" id="destacados">Destacados</h2>
+        <div class="row gy-3 mt-5">
           <div class="col-12 col-sm-6 col-md-3">
-            <div class="card"     >
+            <div class="card">
               <img
                 src="./assets/img/card1.jpg"
                 class="card-img-top"
                 alt="Imagen 1"
               />
-              <div class="card-body"  id="color"  >
-               
-                <p class="card-text text-white"    >
+              <div class="card-body bg-info text-light">
+                <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
                   reiciendis.
@@ -259,9 +288,7 @@
                 class="card-img-top"
                 alt="Imagen 2"
               />
-              <div class="card-body" id="color"  >
-                
-                
+              <div class="card-body bg-info text-light">
                 <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
@@ -270,7 +297,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-12 col-sm-6 col-md-3">
             <div class="card">
               <img
@@ -278,8 +305,7 @@
                 class="card-img-top"
                 alt="Imagen 3"
               />
-              <div class="card-body"  id="color"   >
-                
+              <div class="card-body bg-info text-light">
                 <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
@@ -295,8 +321,7 @@
                 class="card-img-top"
                 alt="Imagen 4"
               />
-              <div class="card-body" id="color" >
-               
+              <div class="card-body bg-info text-light">
                 <p class="card-text text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Consequatur, blanditiis! Libero voluptate at eligendi
@@ -308,60 +333,106 @@
         </div>
       </section>
 
-    </section>
-    <section  >
-      <h2 class="mt-5 mb-3 text-light text-center"id="contacto">Contacto</h2>
-      <form class="p-3 mx-auto text-light">
-        <div class="mb-3">
-          <label for="inputName" class="form-label">Nombre</label>
-          <input
-            type="text"
-            class="form-control"
-            aria-describedby="nameHelp"
-            placeholder="Escribe aquí tu nombre"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="inputAsunto" class="form-label">Asunto</label>
-          <input
-            type="text"
-            class="form-control"
+      <section>
+        <h2 class="mt-5 mb-3 text-light text-center" id="contacto">Contacto</h2>
+        <form class="p-3 mx-auto text-light">
+          <div class="mb-3">
+            <label for="inputName" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              aria-describedby="nameHelp"
+              placeholder="Escribe aquí tu nombre"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="inputAsunto" class="form-label">Asunto</label>
+            <input
+              type="text"
+              class="form-control"
+              aria-describedby="asuntoHelp"
+              placeholder="Escribe aquí el asunto del mensaje"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensajeArea" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              rows="5"
+              placeholder="Escribe aquí el mensaje"
+              required
+            ></textarea>
+          </div>
+
+          <button
             
-            aria-describedby="asuntoHelp"
-            placeholder="Escribe aquí el asunto del mensaje"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="mensajeArea" class="form-label">Mensaje</label>
-          <textarea
-            class="form-control"
-            rows="5"
-            placeholder="Escribe aquí el mensaje"
-            required
-          ></textarea>
-        </div>
-
-        <button
-          id="color"
-          type="submit"
-          class="btn boton_submit_formulario text-white"
-          data-bs-toggle="tooltip"
-          data-bs-placement="bottom"
-         
-        >
-          Enviar Mensaje
-        </button>
-      </form>
-    </section>
-
-
-  
+            type="submit"
+            class="btn boton_submit_formulario text-white btn-info"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="ENVIAR!"
+          >
+            Enviar Mensaje
+          </button>
+        </form>
+      </section>
     </main>
-    <footer class=" pt-3 pb-5" id="color" >
-      <span>Viajes chike</span>
-    </footer>
-  
+    <footer class="bg-info p-4">
+      <div
+          class="container d-flex justify-content-around align-items-center"
+      >
+          <h2 class="text-uppercase text-white footer-titulo">
+              Viajes Chile
+          </h2>
+          <div class="d-flex align-items-center">
+              <div
+                  class="me-3"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="github"
+              >
+                  <i
+                      class="fa-brands fa-github fa-2xl"
+                      style="color: white"
+                  ></i>
+              </div>
+              <div
+                  class="me-3"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="LinkedIn"
+              >
+                  <i
+                      class="fa-brands fa-linkedin fa-2x"
+                      style="color: white"
+                  ></i>
+              </div>
+              <div
+                  class="me-3"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="twitter"
+              >
+                  <i
+                      class="fa-brands fa-square-twitter fa-2xl"
+                      style="color: white"
+                  ></i>
+              </div>
+              <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="facebook"
+              >
+                  <i
+                      class="fa-brands fa-square-facebook fa-2xl"
+                      style="color: white"
+                  ></i>
+              </div>
+          </div>
+      </div>
+  </footer>
+   
   </body>
 </html>
