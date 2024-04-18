@@ -1,17 +1,25 @@
-html {
+.html {
     scroll-behavior: smooth;
 }
 
-p,
+/* fuente utilizado*/
+
+.p,
 h2,
 h5{
     font-family: "Raleway";
 }
 
-
-
-
-
-#negro{
-    background-color: black;
-}
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      /* Ajuste el tamaño de la imagen para dispositivos móviles */
+      max-width: 100%;
+      height: auto;
+    }
+  }
