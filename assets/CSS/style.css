@@ -2,19 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+p,
+h2,
+h5{
     font-family: "Raleway";
 }
 
 
-#favicon {
-    width: 35px;
-}
-p,
-h2,
-h5 {
-    color: white;
-}
+
+
 
 #negro{
     background-color: black;
