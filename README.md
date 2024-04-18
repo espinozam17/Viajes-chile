@@ -22,3 +22,63 @@
 #8- los favicons son un <script> 
 
 que al igual utilice BS JS  para el tooltips 
+
+#9-
+    Color : Black y BG-info 
+    fonts :font-family: "Raleway";
+
+
+    <nav
+        class="navbar navbar-expand-md navbar-dark fixed-top"
+        style="background-color: transparent"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand fw-bold"
+            href="./index.html"
+            title="Logo Viajes Chile"
+            ><img
+              src="./assets/img/viajes.svg"
+              alt="Logo Viajes Chile"
+              style="width: 70px"
+            />
+            Viajes Chile</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#quienes"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  aria-current="page"
+                  href="#destacados"
+                  >Destacados</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
